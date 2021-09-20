@@ -1,0 +1,360 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.icon{
+  margin: 0 10px 0 10px;
+}
+.phone_head{
+  margin: 0 10px 0 10px;
+}
+
+.header_container_dark{
+  background-color: rgb(47, 141, 38);
+  color: rgb(236, 230, 255);
+ padding: 0 50px;
+}
+
+
+.login_signup_container{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.login_signup_container button{
+  background: none;
+  border: none;
+  color: rgb(255, 248, 248);
+
+  
+}
+.custom-link-nav .nav-link{
+  color: rgb(37, 37, 37);
+  padding: 0 10px;
+  border-right: 1px solid rgb(37,37,37);
+  }
+
+  .custom-link-nav .nav-item:last-child .nav-link
+{
+border: none;
+}
+
+.custom-link-nav{
+  width: 100%;
+height: 100%;
+justify-content: center;
+  align-items: center;
+}
+
+.nav-custom{
+  padding:5px 50px;
+}
+
+.hero-img-custom{
+  height: 393px;
+background-image:url("./resources/images/banner2.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+.banner-1-custom{
+  height: 300px;
+  height: 300px;
+  background-color: #056b1e;
+color: rgb(236, 230, 255); 
+display: flex;
+flex-direction: column;
+padding:0 150px;
+text-align: center;
+align-items: center;
+justify-content: center;
+
+}
+
+.banner-1-custom span hr{
+  height: 5px;
+  color: azure;
+  width: 50px;
+
+}
+
+.healthy-container{
+  height: 500px;
+}
+
+.circle-div-container{
+  position: relative;
+  height: 300px;
+}
+
+.circular-div{
+  position: relative;
+  height: 200px;
+  width: 200px;
+  color: rgb(23, 24, 24);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: absolute;
+  border: 1px solid #0000;
+  top: 20%;
+}
+
+.circular-div.cr1{
+  background-color: rgb(255, 0, 64);
+  left: 30%;
+  color: antiquewhite;
+
+}
+.circular-div.cr2{
+  background-color: yellow;
+  left: 43%;
+  color:black;
+  z-index: none;
+
+  
+}
+.circular-div.cr3{
+  background-color: rgb(255, 0, 64);
+  left: 56%;
+  color: antiquewhite;
+  z-index: none;
+  
+}
+
+.healthy-info-btn-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-fluid{
+  height:560px;
+  width: 680px;
+  display: flex;
+
+}
+
+
+.custom-card-btn{
+  background-color: rgb(237, 245, 237) ;
+  color:green;
+  border: none;
+}
+
+.height-creator{
+  height: 100px;
+  background-color: rgb(125, 230, 230);
+}
+
+.heignt-creator{
+  height: 350px;
+  width: 680px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #b8e5f3;
+}
+
+.bar-chart{
+width: 45px;
+display: flex;
+flex-direction: column-reverse;
+background-color: rgb(236, 112, 149);
+position: relative;
+border-radius: 5px;
+}
+
+
+.bar-chart p {
+white-space: nowrap;
+
+  transform: rotate(-90deg);
+}
+.bar-chart div {
+position: absolute;
+top: -20px;
+left: 12px;
+}
+
+.con-chart{
+  height: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.custom-misc-2-con-chart{
+  padding: 40px 150px;
+  background-color: #f6f5f3;
+}
+
+
+.img-fluid{
+  max-width: 200%;
+}
+
+.btn4  {
+  background-color: seashell;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: hsl(229deg 60% 49%);
+    background-color: red;
+    border-width: 0px;
+    border-style: solid;
+    border-color: hsl(229deg 60% 49%);
+    border-radius: 999px;
+    padding: 11px 23px 11px 23px
+}
+
+.custom-misc-2-con-chart{
+  padding: 40px 150px;
+  background-color: #f6f5f3;
+}
+
+.cuystom-card-2 .card-img-top{
+  max-height: 230px;
+}
+
+.cuystom-card-2 .card-title{
+  font-size: 15px;
+}
+.cuystom-card-2 .card-text{
+padding: 5px;
+  font-size: 10px;
+}
+.card3{
+  background-color: oldlace;
+  
+}
+
+
+
+.form-icon{
+  position: relative;  
+  }
+  
+  .form-icon i{
+    position: absolute;
+    left: px;
+    top: 16%;
+  
+  }
+  
+  .form-icon input{
+    padding: 0 0 0 30px;
+  }
+  
+  .pill{
+    border-radius: 30px;
+  }
+  
+  .transaprent-kid{
+    position: absolute;
+    max-width: 700px;
+    right: 20px;
+    top: 52px;
+  }
+
+
+  .button9{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:#ffbb00;
+    border-style: solid;
+    border-radius: 999px;
+    padding: 14px 30px 14px 30px
+}
+
+.slider-image-team{
+  border-radius: 60px;
+  width: 150px;
+  height: 150px;
+}
+.foot{
+ 
+  padding-bottom: 80px;
+  border-bottom: black;
+}
+
+.logot{
+  font-size: 20px;
+  font-weight: 600;
+  color: black
+}
+.footImg{
+  width: 70px;
+  height: 80px;
+
+}
+
+.mt{
+  margin-top: 10%;
+}
+.riya{
+  background-color: rgb(185, 185, 185);
+  
+}
+
+.diet-event {
+  background-image: url("./resources/images/banner3.jpeg");
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+  margin: auto;
+ 
+  background-color: #726f6f;
+}
+
+.dietCard {
+  font-size: 14px;
+  width: 100%;
+  height: 50vh;
+  margin: 25% 40%;
+  background-color: rgba(22, 22, 22, 0.4);
+  padding: 20px;
+}
+
+.spanEvent {
+  color: #06472c;
+  font-weight: 600;
+}
+
+.spanE {
+  margin: 2% 1%;
+  width: 10%;
+  border-top: 3px solid #f3670a;
+}
+
+.upcomingEvent {
+  margin: 100px 10px 0px 0px;
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 70vh;
+  height: 55vh;
+}
+
+.event-para {
+  padding-right: 40px;
+  color: #0a5523;
+}
+.calender {
+  background-color: rgba(31, 30, 30, 0.2);
+  width: 70px;
+  height: 70px;
+  color: white;
+  padding: 5px 0px;
+}
+.calender .digit {
+  padding: 7px 25px;
+}
+.month {
+  padding: 5px 16px;
+}
+
+
